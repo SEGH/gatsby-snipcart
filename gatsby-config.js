@@ -3,7 +3,7 @@ module.exports = {
   siteMetadata: {
     title: `steel-template-gatsby`,
     //must be the url your frontend is deployed to!!!
-    siteUrl: `https://example.com`,
+    siteUrl: `https://segh-test-store.netlify.app`,
     description: `Steel is a sudo framework for headless ecommerce utilizing Snipcart & Sanity `,
     author: `stordahl`
   },
@@ -12,7 +12,7 @@ module.exports = {
       //keep at plugins[0] for steel config
       resolve: `gatsby-source-sanity`,
       options: {
-        projectId: `your-id`,
+        projectId: `b57t0bjz`,
         dataset: `production`,
         // a token with read permissions is required
         // if you have a private dataset
@@ -27,7 +27,7 @@ module.exports = {
       resolve: `gatsby-plugin-snipcart-advanced`,
       options: {
         version: `3.0.29`,
-        publicApiKey: `your-snipcart-public-key`,
+        publicApiKey: `Mzc4OWQ0N2YtNjc2Yy00NWI2LWFiNTQtMzkxMGMyYjZkZWJjNjM3NTMzMzgyNDYzNjUxNDMy`,
       }
     },
     `gatsby-plugin-image`,
